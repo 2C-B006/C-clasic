@@ -35,7 +35,7 @@ char* center (char s[],int len){
 	llen/= 2;
 	static char s_new[1000];
 	for(int i = 0;i<llen;i++)
-	s_new[i]= 32 ;//32 là khoang trang;
+	s_new[i]= 32 ;//32 lÃ  khoang trang;
 	for(int i = 0;i<strlen(s);i++)
 	s_new[llen + i]=s[i];
 	for(int i = llen + strlen(s);i<len;i++)
